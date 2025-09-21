@@ -9,7 +9,8 @@
     "test:verbose": "jest --verbose",
     "test:cov": "jest --coverage",
     "build": "rm -rf dist && tsc",
-    "precommit": "rm -rf dist && tsc && jest --verbose"
+    "precommit": "rm -rf dist && tsc && jest --verbose",
+    "prepare": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
